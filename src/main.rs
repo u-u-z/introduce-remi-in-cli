@@ -11,19 +11,19 @@ fn main() {
 
     // Loading animations.
     let loading_msgs = vec![
-        "[=      ] Loaing .  ",
-        "[ =     ] Loaing .. ",
-        "[  =    ] Loaing ...",
-        "[   =   ] Loaing .. ",
-        "[    =  ] Loaing .  ",
-        "[     = ] Loaing    ",
-        "[      =] Loaing .  ",
-        "[     = ] Loaing .. ",
-        "[    =  ] Loaing ...",
-        "[   =   ] Loaing .. ",
-        "[  =    ] Loaing .  ",
-        "[ =     ] Loaing    ",
-        "[=      ] Loaing    ",
+        "[=      ] Loading .  ",
+        "[ =     ] Loading .. ",
+        "[  =    ] Loading ...",
+        "[   =   ] Loading .. ",
+        "[    =  ] Loading .  ",
+        "[     = ] Loading    ",
+        "[      =] Loading .  ",
+        "[     = ] Loading .. ",
+        "[    =  ] Loading ...",
+        "[   =   ] Loading .. ",
+        "[  =    ] Loading .  ",
+        "[ =     ] Loading    ",
+        "[=      ] Loading    ",
     ];
     play_an_animations(loading_msgs, 3, 100);
 
