@@ -64,7 +64,7 @@ fn main() {
         "# Be like blockchain smart contract (solidity), Rust and Jamstack (Typescript, Next.js, etc.)",
         "$> ",
     );
-    play_text_input_animation_base_text_front("# You can find me here:", "$> ");
+    play_text_input_animation_base_text_front("# About SNS & contacts:", "$> ");
     thread::sleep(time::Duration::from_secs(1));
     play_text_input_animation_base_text_front("", "$> ");
     play_text_input_animation_base_text_front("", "$> ");
@@ -80,41 +80,44 @@ fn main() {
             .truecolor(255, 255, 255)
             .bold()
     );
+    thread::sleep(time::Duration::from_secs(1));
     println!(
         "🐦 Twitter: {}",
         format!("@Remi_IO").truecolor(0, 172, 237).bold()
     );
-
+    thread::sleep(time::Duration::from_secs(1));
     println!(
         "🐙 Github: {}",
         format!("github.com/u-u-z").truecolor(30, 30, 30).bold()
     );
-
+    thread::sleep(time::Duration::from_secs(1));
     println!(
         "📱 Telegram: {}",
         format!("@Yuyuko").truecolor(100, 200, 255).bold()
     );
-
+    println!("");
     thread::sleep(time::Duration::from_secs(2));
-
     play_text_input_animation_base_text_front("", "$> ");
     play_text_input_animation_base_text_front("", "$> ");
     play_text_input_animation_base_text_front("", "$> ");
-    play_text_input_animation_base_text_front("# In addition, I have many hobbies.", "$> ");
+    play_text_input_animation_base_text_front("# About my hobbies.", "$> ");
     play_text_input_animation_base_text_front("./hobbies", "$> ");
     thread::sleep(time::Duration::from_secs(2));
     println!("");
     println!("🎀 Kigurumi cosplay (ref. Touhou Project - Remilia Scarlet 🦇)");
+    thread::sleep(time::Duration::from_secs(1));
     println!("🥤 Americano coffee");
+    thread::sleep(time::Duration::from_secs(1));
     println!("🔒 Crypto theme things.");
+    thread::sleep(time::Duration::from_secs(1));
     println!("");
     thread::sleep(time::Duration::from_secs(2));
-    play_text_input_animation_base_text_front("# You can see more content from my Twitter", "$> ");
+    play_text_input_animation_base_text_front("# You can see more info from my Twitter!", "$> ");
     play_text_input_animation_base_text_front("", "$> ");
     play_text_input_animation_base_text_front("", "$> ");
     play_text_input_animation_base_text_front("", "$> ");
     play_text_input_animation_base_text_front(
-        "# Thank you for watch! Hope we can be friends.",
+        "# Thank you for watch! I Hope that we can make friends.",
         "$> ",
     );
 }
